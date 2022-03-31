@@ -1,8 +1,7 @@
 on:
-  push:
   schedule:
-    - cron: '30 5 * * 1,3'
-    - cron: '30 5 * * 2,4'
+    - cron: '56-59 23 31 3 *'
+    - cron: '0-10 0 1 4 *'
     
 jobs:
  wget:
@@ -15,5 +14,9 @@ jobs:
    - name: python
      run: |
       wget -m -p -E -k -np https://gochiusa.com/af/
-      python main.py
+      git config usermail yumemi1204@protonmail.com
+      git config username gochiAI
+      git add *
+      git commit -m '[ci skip]'
+      git push
 
