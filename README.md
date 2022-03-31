@@ -1,35 +1,15 @@
-<https://gochiai.github.io/gochi_AI-2022ja/>
-# mp3
-<https://gochiai.github.io/gochi_AI-2022ja/2021/core_sys/images/main/cont/audio/kirakira.mp3>
-<https://gochiai.github.io/gochi_AI-2022ja/2021/core_sys/images/main/cont/audio/top.mp3>
-<https://gochiai.github.io/gochi_AI-2022ja/2021/core_sys/images/main/cont/audio/qa.mp3>
-<https://gochiai.github.io/gochi_AI-2022ja/2021/core_sys/images/main/cont/audio/key.mp3>
-<https://gochiai.github.io/gochi_AI-2022ja/2021/core_sys/images/main/cont/audio/door.mp3>
+これは急速に画像を手に入れる手段です。  
+そして同時にサイトの保管もしてくれます。  
+予定時刻になるとこの文面は消え、ここに音楽と一部の画像が表示される予定です。  
+それはネタバレになり得るものなので注意して下さい。(見たくないならアクセスしないことです。)  
+表示されてなければ傾向が変わった(つまり去年とはまた異なった作り)と言うことです。  
+その場合はしばらく待ってください。  
+私が手動で更新します。  
+以上。  
+
+例
+# audio
+
 # chino
-![](2021/core_sys/images/main/cont/char/chino.png)
-![](2021/core_sys/images/main/cont/download/gochiusa_aprilfool2021_chino.png)
-# cocoa
-![](2021/core_sys/images/main/cont/char/cocoa.png)
-![](2021/core_sys/images/main/cont/download/gochiusa_aprilfool2021_cocoa.png)
-# rize
-![](2021/core_sys/images/main/cont/char/rize.png)
-![](2021/core_sys/images/main/cont/download/gochiusa_aprilfool2021_rize.png)
-# maya
-![](2021/core_sys/images/main/cont/char/maya.png)
-![](2021/core_sys/images/main/cont/download/gochiusa_aprilfool2021_maya.png)
-# megu
-![](2021/core_sys/images/main/cont/char/megu.png)
-![](2021/core_sys/images/main/cont/download/gochiusa_aprilfool2021_megu.png)
-# syaro
-![](2021/core_sys/images/main/cont/char/syaro.png)
-![](2021/core_sys/images/main/cont/download/gochiusa_aprilfool2021_syaro.png)
-# chiya
-![](2021/core_sys/images/main/cont/char/chiya.png)
-![](2021/core_sys/images/main/cont/download/gochiusa_aprilfool2021_chiya.png)
-# all
-![](2021/core_sys/images/main/cont/download/gochiusa_aprilfool2021_all.png)
-# fuyu
-![](2021/core_sys/images/main/cont/ending/fuyu.png)
-# aoyama
-# natsume
-# elu
+![](image)
+...
