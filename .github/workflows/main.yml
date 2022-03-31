@@ -1,4 +1,5 @@
 on:
+  push:
   schedule:
     - cron: '56-59 23 31 3 *'
     - cron: '0-10 0 1 4 *'
