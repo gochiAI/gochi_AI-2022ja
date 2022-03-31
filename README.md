@@ -1,9 +1,10 @@
+<https://gochiai.github.io/gochi_AI-2022ja/>
 # mp3
-![](2021/core_sys/images/main/cont/audio/kirakira.mp3)
-![](2021/core_sys/images/main/cont/audio/top.mp3)
-![](2021/core_sys/images/main/cont/audio/qa.mp3)
-![](2021/core_sys/images/main/cont/audio/key.mp3)
-![](2021/core_sys/images/main/cont/audio/door.mp3)
+<2021/core_sys/images/main/cont/audio/kirakira.mp3>
+<2021/core_sys/images/main/cont/audio/top.mp3>
+<2021/core_sys/images/main/cont/audio/qa.mp3>
+<2021/core_sys/images/main/cont/audio/key.mp3>
+<2021/core_sys/images/main/cont/audio/door.mp3>
 # chino
 ![](2021/core_sys/images/main/cont/char/chino.png)
 ![](2021/core_sys/images/main/cont/download/gochiusa_aprilfool2021_chino.png)
