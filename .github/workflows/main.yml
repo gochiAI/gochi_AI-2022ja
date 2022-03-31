@@ -1,11 +1,18 @@
-name: wget
-on: [push]
-runs-on: ubuntu-latest
-steps:
- - uses: actions/checkout@v2
- - name: Setup Python
- - uses: actions/setup-python@v2
-   run: |
-    wget -m -p -E -k -np https://gochiusa.com/af/
-    python main.py
+on:
+  schedule:
+    - cron: '30 5 * * 1,3'
+    - cron: '30 5 * * 2,4'
+    
+jobs:
+ wget:
+  runs-on: ubuntu-latest
+  steps:
+   - name: checkout
+     uses: actions/checkout@v2
+   - name: Setup Python
+     uses: actions/setup-python@v2
+   - name: python
+     run: |
+      wget -m -p -E -k -np https://gochiusa.com/af/
+      python main.py
 
