@@ -1,6 +1,5 @@
 import os,lxml.html,re,sys,glob
-read = open('README.md',mode='w')
+read = open('README.md',mode='a')
 p=[]
 for i in glob.glob('gochiusa.com/af/core_sys/images/main/*'):
-    p.append(i)
-read.write(i)
+   read.write(f'![](https://gochiai.github.io/gochi_AI-2022ja/gochiusa.com/af/core_sys/images/main/{i}\¥\n')
