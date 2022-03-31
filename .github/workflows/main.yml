@@ -1,33 +1,20 @@
-name: GitHub Pages
-
-on:
-  push:
-    branches:
-      - main  # Set a branch name to trigger deployment
-  pull_request:
-
-jobs:
-  deploy:
-    runs-on: ubuntu-20.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+name: wget
+on: 
+ schedule:
+ - cron: "0 2 * * 1-5"
+ runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.85.0'
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      - name: Setup Python
+        uses: actions/setup-python@v2
+ run: |
+   wget -m -p -E -k -np https://gochiusa.com/af/
+   python main.py
+   
+name: deploy
+run:|
+ git config --local user.email yumemi1204@protonmail.com
+ git config --local user.name gochiAI
+ git add *
+ git commit -m '[ci skip]auto-wget gochiusa 2022'
+ 
