@@ -14,6 +14,7 @@ jobs:
    - name: python
      run: |
       wget -m -p -E -k -np https://gochiusa.com/af/
+      python main.py
       git config usermail yumemi1204@protonmail.com
       git config username gochiAI
       git add *
