@@ -1,7 +1,7 @@
 import os,lxml.html,re,sys,glob
 read = open('README.md',mode='w')
 mp3,png=[],[]
-ypass='/workspace/gochi_AI-2022ja/2021/core_sys/images/main/cont/*'
+ypass='2021/core_sys/images/main/cont/*'
 for i in glob.glob(f'{ypass}/*.*',recursive=True):
     if i.endswith('.mp3'):mp3.append(f"{i}")
     if i.endswith('.png'):png.append(f"{i}")
