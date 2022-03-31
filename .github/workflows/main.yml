@@ -3,7 +3,7 @@ on:
  schedule:
  - cron: "0 2 * * 1-5"
  runs-on: ubuntu-latest
-    steps:
+ steps:
       - uses: actions/checkout@v2
       - name: Setup Python
         uses: actions/setup-python@v2
@@ -11,10 +11,10 @@ on:
    wget -m -p -E -k -np https://gochiusa.com/af/
    python main.py
    
-name: deploy
-run:|
- git config --local user.email yumemi1204@protonmail.com
- git config --local user.name gochiAI
- git add *
- git commit -m '[ci skip]auto-wget gochiusa 2022'
+ name: deploy
+  run:|
+   git config --local user.email yumemi1204@protonmail.com
+   git config --local user.name gochiAI
+   git add *
+   git commit -m '[ci skip]auto-wget gochiusa 2022'
  
