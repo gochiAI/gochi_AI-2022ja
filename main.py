@@ -1,10 +1,10 @@
 import os,lxml.html,re,sys,glob
 read = open('README.md',mode='w')
 mp3,png=[],[]
-ypass='gochiusa.com/af/core_sys/images/main/cont/*'
+ypass='gochiusa.com/af/core_sys/images/main/*'
 for i in glob.glob(f'{ypass}/*.*',recursive=True):
     if i.endswith('.mp3'):mp3.append(f"{i}")
-    if i.endswith('.png'):png.append(f"{i}")
+    if i.endswith('.jph'):png.append(f"{i}")
 read.write('<https://gochiai.github.io/gochi_AI-2022ja/gochiusa.com/af/>\n')
 read.write('# mp3\n')
 for mp3 in mp3:read.write(f'<https://gochiai.github.io/gochi_AI-2022ja/{mp3}>\n')
