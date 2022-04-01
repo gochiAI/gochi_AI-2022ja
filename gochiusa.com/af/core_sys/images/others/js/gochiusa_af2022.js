@@ -585,7 +585,7 @@ const stageTxt = {
 	},
 	ending:[
 		{
-			elu:"青い鳥！青い鳥！",
+			elu:"Blue bird! Blue bird!",
 			natsume:"捕獲しなきゃ！",
 		},{
 			saki:"ありがとう。色とりどりの鳥に囲まれて<br>娘たちは自分たちが青い鳥だったと気づいたようです。"
