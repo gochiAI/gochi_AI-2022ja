@@ -434,77 +434,77 @@ const stageTxt = {
 		},
 		'03':{
 			title:"幸福の花園",
-			read:"花の香りが広がる。<br>ずっといたくなるが先に進まなければ…",
-			fail:"花園から追い出された…<br>出直そう…",
+			read:"The fragrance of flowers spreads.<br>I want to stay here forever, but I have to move on.",
+			fail:"Kicked out of the flower garden...<br>Let's start over...",
 			1:{
 				charaName:"あんこ",
-				txt:"巨大な花園の守護者が邪魔している…<br>足元には木の棒とふわふわの白い毛玉がある。",
-				answer01:"木の棒を投げる",
-				answer02:"白い毛玉を投げる",
+				txt:"A giant flower garden guardian is in the way...<br>There are wooden sticks and fluffy white fluff balls at his feet.",
+				answer01:"throw a stick",
+				answer02:"Throwing white furballs",
 				answer:2
 			},
 			2:{
-				charaName:"千夜の祖母",
-				txt:"花園を荒らす人間は帰れ！お土産に栗饅頭と羊羹持っていきな！<br>なに生姜饅頭も欲しいのかい？欲張りだねぇ…！",
-				answer01:"ついでに青い鳥の卵もください！",
-				answer02:"ありがとう　おばあちゃん！",
+				charaName:"Grandmother of chiya",
+				txt:"People who destroy the flower garden, go home!Take some chestnut buns and yokan as souvenirs.<br>What, you want a ginger bun too?You're so greedy...!",
+				answer01:"And while you're at it, please give me a blue bird egg.",
+				answer02:"Thank you, Grandma!",
 				answer:1
 			}
 		},
 		'04':{
 			title:"夜の街",
-			read:"小説家の屋敷をうさぎ警官たちが守っている…<br>怪盗と一緒に潜入し、お宝の卵を奪え！",
-			fail:"通報されてうさぎ警官に捕まった<br>家に帰されてしまった",
+			read:"The novelist's mansion is guarded by rabbit cops...<br>Sneak in with the thief and take the treasure eggs!",
+			fail:"They called the cops and the rabbit cops caught me<br>and sent me home.",
 			1:{
 				charaName:"凛さん",
-				txt:"わぁ怪盗ラパンの助手さんですか！？<br>見せてください！怪盗ラパン直伝の必殺技！",
-				answer01:"ロイヤルストレートフラッシュ！だっけ",
-				answer02:"ロイヤルフルハウス！だね",
+				txt:"Wow, you are the thief Lapin!<br>Let me see!A special move straight from Lapin the Phantom Thief!",
+				answer01:"Royal Straight Flush! ",
+				answer02:"Royal Full House! Right.",
 				answer:1
 			},
 			2:{
 				charaName:"青山ブルーマウンテン",
-				txt:"私の渾身のセキュリティ見てくださーい！<br>突破できなかったら取材させてくださーい！<br>ヒントは「ルージュ、サファイア、エメラルド」です。",
-				answer01:"赤、緑、青の順番でボタンを押す",
-				answer02:"赤、青、緑の順番でボタンを押す",
+				txt:"Please take a look at my full-length security! If you can't break through, let me interview you!The clue is 'ruby,sapphire, emerald'.",
+				answer01:"Press the buttons in the order of red, green, and blue.",
+				answer02:"Press the buttons in the order of red, blue, and green.",
 				answer:2
 			}
 		},
 		'05':{
 			title:"未来遺跡",
-			read:"他のトレジャーハンターを出し抜いて<br>遺跡の秘宝である卵を手に入れろ！",
-			fail:"探索に失敗した…<br>仕方ない　出直そう",
+			read:"Outsmart the other treasure hunters<br>and get the egg, the hidden treasure of the ruins!",
+			fail:"We failed ...<br>No choice, let's come back out.",
 			1:{
 				charaName:"ユラ",
-				txt:"この先はバリアが邪魔して通れないよ～。<br>解除ボタンが遠くに見えるけど届きそうにないし～。<br>やばー詰んだわ～。",
-				answer01:"その吹き矢は飾り？それ使ってみたら？",
-				answer02:"石を投げてみようよ",
+				txt:"The barrier is in the way and you can't get through this end!<br>I can see the release button in the distance, but I can't seem to reach it.<br>Oh no!",
+				answer01:"Is that blowgun for decoration? Why don't you use that?",
+				answer02:"Let's throw some rocks.",
 				answer:2
 			},
 			2:{
 				charaName:"タカヒロ",
-				txt:"俺は夢を追うトレジャーハンタータカヒロ。<br>宝は頂いていくよ。君たちにはお引き取り願おう。",
-				answer01:"真面目に働いてください。家族が泣きますよ。",
-				answer02:"双子の絆で果敢に挑む！",
+				txt:"I'm Takahiro, a treasure hunter chasing a dream.I'm going to take the treasure.",
+				answer01:"Please work diligently. Your family will cry.",
+				answer02:"The twins bonded to boldly take on the challenge!",
 				answer:1
 			}
 		},
 		'06':{
 			title:"墓場城",
-			read:"死者が安らかに眠っている…<br>墓守に気づかれず、なるべく静かに通り抜けよう",
-			fail:"墓守につまみ出されてしまった…<br>仕方ない出直そう",
+			read:"The dead are resting in peace...<br>Try to pass through as quietly as possible without the grave keeper noticing.",
+			fail:"The tomb guard found me...<br>No choice, let's go back.",
 			1:{
 				charaName:"委員長",
-				txt:"こんにちは！<br>クラスメイトバンド「文化祭レクイエム」です！<br>ここなら誰も来ないので今から練習します！",
-				answer01:"こっそり通り抜ける",
-				answer02:"合の手を入れる",
+				txt:"Hello.It's my classmate band<br>I'm gonna practice now since no one else is coming!",
+				answer01:"move on quietly",
+				answer02:"listen to a performance",
 				answer:1
 			},
 			2:{
 				charaName:"リゼ父",
-				txt:"ここは死者の眠る場所だぜ…<br>だけどたまには死者も騒ぎてぇよなぁ！？<br>聞いてくれ、俺の歌！「ダメ親父のデスペラード！」",
-				answer01:"マイクを取り上げる",
-				answer02:"真面目に働いてください。家族が泣きますよ。",
+				txt:"This is where the dead sleep...But sometimes the dead like to make noise! Listen to me, my song! ",
+				answer01:"take away the microphone",
+				answer02:"Please work diligently. Your family will cry.",
 				answer:1
 			}
 		},
@@ -512,48 +512,48 @@ const stageTxt = {
 	clear:{
 		'01':{
 			name:'ここあ',
-			comment:'生まれたてのおねえちゃんだよ！<br>おねえちゃんにまかせなさーい！',
+			comment:'Im your newborn sister.Leave it to your sister!',
 			dialogue:[
-				'わぁ、この子パンの香りがするよ！',
-				'でも、パンと幸せの過剰摂取でお腹いっぱいだよ…'
+				'Wow, she smells like bread!',
+				'But Im full of bread and happiness overload...'
 			],
-			result:'持ち帰った卵は青い鳥ではなかった<br>※ここあを自宅で確認できるようになりました',
+			result:'The egg I brought home was not a blue bird<br>*I can now check ここあ.',
 		},
 		'02':{
 			name:'めぐ',
-			comment:'わぁっ、これは風邪っぽいですねー。<br>しんぞういしょくしなければ！術式開始です！',
+			comment:'Wow, this sounds like a cold!<br>You need a heart transplant!<br>Surgery is about to begin!',
 			dialogue:[
-				'ナツメちゃんの心臓に何かあったら私ドナーになるから！',
-				'エルはどうなるの？'
+				'If anything happens to Natsume＇s heart, Ill be your donor!',
+				'What about Elu？'
 			],
-			result:'持ち帰った卵は青い鳥ではなかった<br>※めぐを自宅で確認できるようになりました',
+			result:'The egg I brought home was not a blue bird<br>*I can now check めぐ',
 		},
 		'03':{
 			name:'ちや',
-			comment:'つぶあん派？こしあん派？<br>わたしはあまうさあん派―♪',
+			comment:'Do you prefer mashed sweet bean paste? Do you prefer strained bean paste?',
 			dialogue:[
-				'わたしはミックス派！',
-				'なんか羊羹パン食べたくなってきた…'
+				'Im a mixer！',
+				'I kind of want some yokan bread…'
 			],
-			result:'持ち帰った卵は青い鳥ではなかった<br>※ちやを自宅で確認できるようになりました',
+			result:'The egg I brought home was not a blue bird<br>*I can now check ちや',
 		},
 		'04':{
 			name:'しゃろ',
-			comment:'わたしの事やきとりにする気でしょ…！<br>こわい…！',
+			comment:'You are trying to turn me into a roasted chicken, aren＇t you...!scary...!',
 			dialogue:[
-				'大丈夫！ちょっと拉致するだけだから！',
-				'エル、言い方！家に連れ帰るだけだから！'
+				'It is okay! We are just going to abduct you for a minute!',
+				'Elu, the way you say it! I'm just taking you home!'
 			],
-			result:'持ち帰った卵は青い鳥ではなかった<br>※しゃろを自宅で確認できるようになりました',
+			result:'The egg I brought home was not a blue bird<br>*I can now check シャロ',
 		},
 		'05':{
 			name:'まや',
-			comment:'なんだよーその目はー！<br>ペンギンだって立派なちょーるいだぞー！',
+			comment:'What is with the eyes?Penguins are great birds too!',
 			dialogue:[
-				'ペンギンなのに、背中に羽が生えてるー♪',
-				'すごい、水陸空両用じゃん。'
+				'It is a penguin, but it is got feathers on its back!',
+				'Wow, it is both land and air.'
 			],
-			result:'持ち帰った卵は青い鳥ではなかった<br>※まやを自宅で確認できるようになりました',
+			result:'The egg I brought home was not a blue bird<br>*I can now check まや',
 		},
 		'06':{
 			name:'りぜ',
@@ -562,7 +562,7 @@ const stageTxt = {
 				'やはり生き残るには…悪になるしか…',
 				'なんかの映画のセリフ？'
 			],
-			result:'持ち帰った卵は青い鳥ではなかった<br>※りぜを自宅で確認できるようになりました',
+			result:'The egg I brought home was not a blue bird<br>*I can now check リゼ',
 		},
 		'07':{
 			name:'ちの',
@@ -571,7 +571,7 @@ const stageTxt = {
 				'なんかずっと飲みたかったコーヒーの香りがするー。',
 				'将来、うちの専属バリスタになってくれないかなー。'
 			],
-			result:'持ち帰った卵は青い鳥ではなかった<br>※りぜを自宅で確認できるようになりました',
+			result:'The egg I brought home was not a blue bird<br>*I can now check ちの',
 		},
 		'08':{
 			name:'ふゆ',
@@ -580,7 +580,7 @@ const stageTxt = {
 				'え、服の猫で腹話術？すごい！',
 				'もっとやってやって！'
 			],
-			result:'持ち帰った卵は青い鳥ではなかった<br>※りぜを自宅で確認できるようになりました',
+			result:'The egg I brought home was not a blue bird<br>*I can now check ふゆ',
 		},
 	},
 	ending:[
