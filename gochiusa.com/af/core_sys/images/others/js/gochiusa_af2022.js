@@ -557,8 +557,7 @@ const stageTxt = {
 		},
 		'06':{
 			name:'りぜ',
-			comment:'Only the bad ones survive.<br>Rize... is a bad girl... she sneaked out and ate the cake.
-',
+			comment:'Only the bad ones survive.<br>Rize... is a bad girl... she sneaked out and ate the cake.',
 			dialogue:[
 				'After all, the only way to survive... is to be evil...',
 				'Is that a line from some movie?'
