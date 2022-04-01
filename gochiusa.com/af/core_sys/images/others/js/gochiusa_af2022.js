@@ -2,15 +2,15 @@ const dialogue = {
 	loading:{
 		1:{
 			txt:[
-				"思い切って外の世界へ飛び出してよかったのかな",
-				"―――エル"
+				"Am I glad I took the plunge and ventured out into the outside world?",
+				"―――Elu"
 			],
 			voice:"01_Natsume.mp3",
 		},
 		2:{
 			txt:[
-				"景色だけじゃない世界って広いね",
-				"―――ナツメちゃん"
+				"The world is much bigger than it looks in pictures!",
+				"―――Natsume-chan"
 			],
 			voice:"02_Elu.mp3",
 		},
@@ -20,18 +20,18 @@ const dialogue = {
 			{
 				chara:"natsume",
 				txt:[
-					"ごきげんよう…みなさん。",
-					"えっと…青い鳥見つかるといいですね",
-					"っと　エル！そっちじゃないよ！",
-					"あ…すいません…"
+					"how do you do...?everyone",
+					"Well... good luck finding the blue bird.",
+					"Hey, Elu! Not that way!",
+					"Uh... sorry..."
 				],
 				voice:"03_Natsume.mp3",
 			},{
 				chara:"elu",
 				txt:[
-					"青い鳥なんて探すだけ時間の無駄じゃないでしょうか。",
-					"あ　ナツメちゃん！あっちに行ってみよ！",
-					"…とにかく見つけさせて買収したほうが早いと思います。"
+					"Isn't it futile to look for blue birds?",
+					"Oh, Natsume! Let's go over there!",
+					"... I think it would be faster to find and sell them anyway."
 				],
 				voice:"04_Elu.mp3",
 			},
