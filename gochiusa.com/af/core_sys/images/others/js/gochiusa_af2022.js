@@ -557,28 +557,28 @@ const stageTxt = {
 		},
 		'06':{
 			name:'りぜ',
-			comment:'生きのこるのは悪いやつばかりだ。<br>りぜは…悪い子だ…こっそりケーキつまみ食いした。',
+			comment:'Only the bad ones survive.<br>Rize... is a bad girl... she sneaked out and ate the cake.',
 			dialogue:[
-				'やはり生き残るには…悪になるしか…',
-				'なんかの映画のセリフ？'
+				'After all, the only way to survive... is to be evil...',
+				'Is that a line from some movie?'
 			],
 			result:'The egg I brought home was not a blue bird<br>*I can now check リゼ',
 		},
 		'07':{
 			name:'ちの',
-			comment:'この白いもふもふは親友のてぃっぴー。<br>まつ毛がちゃーむぽいんとっておじいちゃんが言ってた。',
+			comment:'This white fluffy thing is my best friend Tippy<br>Grandpa＇s eyelashes are a charm point.',
 			dialogue:[
-				'なんかずっと飲みたかったコーヒーの香りがするー。',
-				'将来、うちの専属バリスタになってくれないかなー。'
+				'It smells like the coffee I＇ve always wanted to drink.',
+				'We hope you will be our exclusive barista in the future.'
 			],
 			result:'The egg I brought home was not a blue bird<br>*I can now check ちの',
 		},
 		'08':{
 			name:'ふゆ',
-			comment:'………とり…好き？<br>「まぁ吾輩が好きなのは猫だがね」',
+			comment:'<br>Do you like ......... bird?Well, it is the cats I like.',
 			dialogue:[
-				'え、服の猫で腹話術？すごい！',
-				'もっとやってやって！'
+				'What? Ventriloquism, great!',
+				'Do more of it!'
 			],
 			result:'The egg I brought home was not a blue bird<br>*I can now check ふゆ',
 		},
@@ -586,17 +586,17 @@ const stageTxt = {
 	ending:[
 		{
 			elu:"Blue bird! Blue bird!",
-			natsume:"捕獲しなきゃ！",
+			natsume:"We have to capture them!",
 		},{
-			saki:"ありがとう。色とりどりの鳥に囲まれて<br>娘たちは自分たちが青い鳥だったと気づいたようです。"
+			saki:"Thank you very much.<br>The daughter seem to have realized that they are bluebirds."
 		},{
-			natsume:"私たちも世界を知れてよかった。<br>見方とか感じ方変わった気がする。",
-			elu:"「幸せの青い鳥」は<br>私たちの身近なとこにあるってことだね",
+			natsume:"We are glad to know the world too.<br>I think it changed the way we see and feel.",
+			elu:"The 'blue bird of happiness' is all around us.",
 		},{
-			natsume:"つまり、引きこもり最高！<br>部屋には楽しいで溢れてる！",
-			elu:"寝っ転がってゲーム最高！<br>お菓子も美味しい！",
+			natsume:"In other words, stay home!<br>Rooms are full of fun!",
+			elu:"Great to lie down and play games!<br>And the snacks are delicious!",
 		},{
-			saki:"でも、これでゲームは終わりです。<br>そろそろ、目を覚ます時間ですよ。<br>そして、青い鳥の片翼はあなたたちの背中にも…"
+			saki:"But now the game is over.<br>It's time to wake up.<br>And wings of the blue bird is on your backs as well..."
 		}
 	],
 }
