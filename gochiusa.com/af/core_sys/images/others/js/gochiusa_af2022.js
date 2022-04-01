@@ -415,20 +415,20 @@ const stageTxt = {
 		},
 		'02':{
 			title:"思い出の大都会",
-			read:"大都会…初めて来たのに初めてじゃない…？<br>自然と足が動き出す…",
-			fail:"何かが違う…<br>気が付いたら、家に戻っていた…",
+			read:"Big city...first time here and not first time...?<br>My feet naturally start to move...",
+			fail:"Something is different...<br>I found myself back at home...",
 			1:{
-				charaName:"都会で会った変な子",
-				txt:"（スパ施設の風景が広がる…）<br>おいそこの双子！サウナで我慢勝負だー！",
-				answer01:"いいよ！私が相手だ！",
-				answer02:"だめ！争いはよくないよ！",
+				charaName:"Weird girl I met in the city.",
+				txt:"（Spa facility landscape expands…）And the twins can join me in the sauna!<br>",
+				answer01:"Okay, let's play me.",
+				answer02:"No! Fighting is not good!",
 				answer:1
 			},
 			2:{
-				charaName:"都会で会った面白い子",
-				txt:"（ゲームセンターの風景が広がる）<br>ねぇ踊ろうよ！このダンスゲーム面白いよ！",
-				answer01:"VRゲームやりたいな",
-				answer02:"いいよ！一緒に踊ろう！",
+				charaName:"Interesting girl I met in the city.",
+				txt:"（The landscape of a game center expands.）Hey, let's dance! This dance game is fun!<br>",
+				answer01:"I'd love to play VR games.",
+				answer02:"All right! Dance with me!",
 				answer:2
 			}
 		},
