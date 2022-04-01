@@ -20,7 +20,7 @@ const dialogue = {
 			{
 				chara:"natsume",
 				txt:[
-					"how do you do...?everyone",
+					"how do you do...,everyone.",
 					"Well... good luck finding the blue bird.",
 					"Hey, Elu! Not that way!",
 					"Uh... sorry..."
@@ -60,7 +60,7 @@ const dialogue = {
 				txt:[
 					"YEAH!!! Blue bird complete!",
 					"For me, it was easy.",
-					"I'm going to brag to Maya!♪"
+					"I'm going to brag to Maya♪"
 				],
 				voice:"07_Natsume.mp3",
 			},{
