@@ -542,7 +542,7 @@ const stageTxt = {
 			comment:'You are trying to turn me into a roasted chicken, aren＇t you...!scary...!',
 			dialogue:[
 				'It is okay! We are just going to abduct you for a minute!',
-				'Elu, the way you say it! I'm just taking you home!'
+				'Elu, the way you say it! I＇m just taking you home!'
 			],
 			result:'The egg I brought home was not a blue bird<br>*I can now check シャロ',
 		},
