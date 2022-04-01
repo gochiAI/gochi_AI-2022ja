@@ -66,9 +66,9 @@ const dialogue = {
 			},{
 				chara:"elu",
 				txt:[
-					"メグさん達も呼んでみんなでタイムアタックする？",
-					"熱いバトルしたいなぁ！",
-					"えへへ、楽しいねっナツメちゃん♪"
+					"Why don't we invite Meg and the others and have a time attack together?",
+					"I want to have a hot battle!",
+					"Hehehe, it's fun, isn't it, Natsume-chan♪"
 				],
 				voice:"08_Elu.mp3",
 			},
@@ -79,15 +79,15 @@ const dialogue = {
 			{
 				chara:"natsume",
 				text:[
-					"エル",
-					"おきておきて"
+					"Elu",
+					"Please wake up."
 				],
 				voice:"09_Natsume.mp3"
 			},{
 				chara:"elu",
 				text:[
-					"ナツメちゃん",
-					"そっちに青い鳥はいないよー…"
+					"Natsume-chan",
+					"No blue birds over there..."
 				],
 				voice:"10_Elu.mp3"
 			}
@@ -95,14 +95,14 @@ const dialogue = {
 			{
 				chara:"natsume",
 				text:[
-					"変な夢見た",
-					"マヤから借りたゲームのせいだ"
+					"I had a weird dream.",
+					"because of a game I borrowed from Maya. "
 				],
 				voice:"11_Natsume.mp3"
 			},{
 				chara:"elu",
 				text:[
-					"頭の中で天使がグルグルしてる～"
+					"I've got angels swirling around in my head."
 				],
 				voice:"12_Elu.mp3"
 			},
@@ -110,15 +110,15 @@ const dialogue = {
 			{
 				chara:"elu",
 				text:[
-					"あれ～",
-					"私の鳥籠は～？"
+					"Oh, no...",
+					"My birdcage...？"
 				],
 				voice:"13_Elu.mp3"
 			},{
 				chara:"natsume",
 				text:[
-					"まだ寝ぼけてる",
-					"ほら！エルの鞄"
+					"Still sleepwalking?",
+					"Elle's bag!"
 				],
 				voice:"14_Natsume.mp3"
 			},
@@ -126,9 +126,9 @@ const dialogue = {
 			{
 				chara:"elu",
 				text:[
-					"ねぇナツメちゃん",
-					"まだ木組みの町に来たばかりだけど",
-					"私たちが私たちのままで受け入れてくれるって嬉しいね"
+					"Hey, Natsume-chan.",
+					"I'm still new to the town.",
+					"I'm glad they accept us as we are."
 				],
 				voice:"15_Elu.mp3"
 			},
@@ -136,9 +136,9 @@ const dialogue = {
 			{
 				chara:"natsume",
 				text:[
-					"うん私もみんなと会えてよかった",
-					"楽しいことこれからも増えるといいね",
-					"エル"
+					"Yeah, I'm glad too.",
+					"I hope there will be more fun things to come.",
+					"Elu"
 				],
 				voice:"16_Natsume.mp3"
 			},
@@ -146,15 +146,15 @@ const dialogue = {
 			{
 				chara:"elu",
 				text:[
-					"ラビットハウスのみんなに教えたらどんな反応するかな",
-					"夢の話"
+					"I wonder what the reaction would be if I told everyone in the Rabbit House.",
+					"the dream story"
 				],
 				voice:"17_Elu.mp3"
 			},{
 				chara:"natsume",
 				text:[
-					"変な顔されないかな",
-					"みんな小さな天使になってたとか"
+					"I wonder if they'll give me funny looks.",
+					"They were all little angels..."
 				],
 				voice:"18_Natsume.mp3"
 			},
@@ -265,11 +265,11 @@ const tags = {
 		'			</div>'+
 		'			<div class="home__dialogue">'+
 		'				<div class="home__dialogue-natsume">'+
-		'					<div class="home__dialogue-name">ナツメ</div>'+
+		'					<div class="home__dialogue-name">Natsume</div>'+
 		'					<div class="home__dialogue-txt"></div>'+
 		'				</div>'+
 		'				<div class="home__dialogue-elu">'+
-		'					<div class="home__dialogue-name">エル</div>'+
+		'					<div class="home__dialogue-name">Elu</div>'+
 		'					<div class="home__dialogue-txt"></div>'+
 		'				</div>'+
 		'			</div>'+
@@ -326,27 +326,26 @@ const tags = {
 		'		<div class="story__bg"><span><img src="'+storyImg[0].src+'"></span></div>'+
 		'		<div class="story__main">'+
 		'			<div class="story__txt">'+
-		'				私たちは　狭い世界にいた<br>そして　暇を持て余していた<br>だから　疑問を抱いた<br><span class="blue">幸せ</span>ってなんだろう？'+
-		'			</div>'+
+		'				We were in a small world.<br>And we had lots of free time.<br>So we had a question.<br>What is <span class="blue">happiness</span>?
 		'			<div class="story__logo">'+
 		'				<img src="'+storyImg[1].src+'">'+
 		'			</div>'+
 		'			<div class="story__dialogue">'+
 		'				<dl class="story__dialogue-right">'+
 		'					<dt><img src="'+storyImg[2].src+'"></dt>'+
-		'					<dd>私は旅の魔法使い<br>ここから幸せを求める声が聞こえます</dd>'+
+		'					<dd>I am a traveling wizard<br>I hear the call for <span class="blue">happiness</span> from here.</dd>'+
 		'				</dl>'+
 		'				<dl class="story__dialogue-left">'+
 		'					<dt><img src="'+storyImg[3].src+'"></dt>'+
-		'					<dd>不審者だ</dd>'+
+		'					<dd>Suspicious person.</dd>'+
 		'				</dl>'+
 		'				<dl class="story__dialogue-left">'+
 		'					<dt><img src="'+storyImg[4].src+'"></dt>'+
-		'					<dd>警察呼ばなきゃ</dd>'+
+		'					<dd>I have to call the police.</dd>'+
 		'				</dl>'+
 		'				<dl class="story__dialogue-right">'+
 		'					<dt><img src="'+storyImg[2].src+'"></dt>'+
-		'					<dd>ご注文は<span class="blue">幸せ</span>ですか？<br>それでは<span class="blue">青い鳥</span>を探してきてください<br><br>私の娘が<span class="blue">青い鳥</span>欠乏症で苦しんでるんです<br>見つけてくれたら<span class="blue">幸せ</span>を教えてあげましょう</dd>'+
+		'					<dd>Is the order a <span class="blue">happiness</span>?<br>Now please go find the <span class="blue">blue bird</span>.<br>My daughter suffers from <span class="blue">blue bird </span>deficiency,<br> and if you find her, I will tell her <span class="blue">happiness</span>.</dd>'+
 		'				</dl>'+
 		'				<dl class="story__dialogue-left">'+
 		'					<dt><img src="'+storyImg[3].src+'"></dt>'+
