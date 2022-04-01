@@ -283,7 +283,7 @@ const tags = {
 		'				<ul>'+
 		'					<li>'+
 		'						<button type="button" data-type="sotodura">'+
-		'							<span>another person mode</span>'+
+		'							<span>unduly distant</span>'+
 		'							<img src="'+homeImg[3].src+'">'+
 		'						</button>'+
 		'					</li>'+
@@ -333,7 +333,7 @@ const tags = {
 		'			<div class="story__dialogue">'+
 		'				<dl class="story__dialogue-right">'+
 		'					<dt><img src="'+storyImg[2].src+'"></dt>'+
-		'					<dd>I am a traveling wizard<br>I hear the call for <span class="blue">happiness</span> from here.</dd>'+
+		'					<dd>I am a traveling wizard<br>I hear the call for happiness from here.</dd>'+
 		'				</dl>'+
 		'				<dl class="story__dialogue-left">'+
 		'					<dt><img src="'+storyImg[3].src+'"></dt>'+
@@ -345,27 +345,27 @@ const tags = {
 		'				</dl>'+
 		'				<dl class="story__dialogue-right">'+
 		'					<dt><img src="'+storyImg[2].src+'"></dt>'+
-		'					<dd>Is the order a <span class="blue">happiness</span>?<br>Now please go find the <span class="blue">blue bird</span>.<br>My daughter suffers from <span class="blue">blue bird </span>deficiency,<br> and if you find her, I will tell her <span class="blue">happiness</span>.</dd>'+
+		'					<dd>Is the order a <span class="blue">happiness</span>?<br>Now please go find the <span class="blue">blue bird</span>.<br><br>My daughter suffers from <span class="blue">blue bird </span>deficiency,<br> and if you find her, I will tell her <span class="blue">happiness</span>.</dd>'+
 		'				</dl>'+
 		'				<dl class="story__dialogue-left">'+
 		'					<dt><img src="'+storyImg[3].src+'"></dt>'+
-		'					<dd>詐欺の手口だ</dd>'+
+		'					<dd>It is like a scam.</dd>'+
 		'				</dl>'+
 		'				<dl class="story__dialogue-left">'+
 		'					<dt><img src="'+storyImg[4].src+'"></dt>'+
-		'					<dd>うん　なんかの本で読んだ</dd>'+
+		'					<dd>Yeah, I read that in some book.</dd>'+
 		'				</dl>'+
 		'				<dl class="story__dialogue-left">'+
 		'					<dt><img src="'+storyImg[3].src+'"></dt>'+
-		'					<dd>でも探してきてもいいよ　暇だし</dd>'+
+		'					<dd>But I can go look for you. Im not busy.</dd>'+
 		'				</dl>'+
 		'				<dl class="story__dialogue-left">'+
 		'					<dt><img src="'+storyImg[4].src+'"></dt>'+
-		'					<dd>苦しんでるなら助けてあげなきゃ</dd>'+
+		'					<dd>If she is suffering, we must help her!</dd>'+
 		'				</dl>'+
 		'			</div>'+
 		'			<div class="story__txt">'+
-		'				私たちは　狭い鳥籠から飛び出した<br><span class="blue">幸せ</span>を探しに'+
+		'				We jumped out of our narrow birdcages<br>in search of<span class="blue">happiness</span>.'+
 		'			</div>'+
 		'			<div class="story__button">'+
 		'				<button type="button" data-type="start">'+
@@ -377,7 +377,7 @@ const tags = {
 		'	</div>'+
 		'</div>',
 	start:[
-		'<div class="start"><div class="start__inner"><div class="start__bg"><span><img src="'+startImg[0].src+'"></span></div><div class="start__main"><div class="start__txt">扉の先には　青い鳥の卵があるそうです<br>卵を見つけ　青い鳥を孵化させましょう</div><div class="start__list"><ul>',
+		'<div class="start"><div class="start__inner"><div class="start__bg"><span><img src="'+startImg[0].src+'"></span></div><div class="start__main"><div class="start__txt">They say there is a blue bird egg at the end of the door.<br>You have to find the egg and hatch the blue bird.</div><div class="start__list"><ul>',
 		'</ul></div><div class="start__button"><button type="button" data-type="home"><img src="'+homeImg[1].src+'"><span>START</span></button></div></div></div></div>',
 	],
 	startList:['森のパン屋さん','思い出の大都会','幸福の花園','夜の街','未来遺跡','墓場城','エルとナツメの家'],
@@ -396,20 +396,20 @@ const stageTxt = {
 	game:{
 		'01':{
 			title:"森のパン屋さん",
-			read:"パンパンパン祭り開催中<br>大量に焼き上げられたパンの中から青い鳥の卵を探せ",
-			fail:"お腹いっぱいでもう食べれそうにない<br>仕方ない　今日は帰ろう",
+			read:"Bread Bread Bread Festival is underway!<br>Look for blue bird eggs in a large amount of baked bread.",
+			fail:"I'm so full I don't think I can eat anymore<br>No choice, let's go home today.",
 			1:{
-				charaName:"ちよこ(ココア母)",
-				txt:"卵探しなんて後でいいじゃない。<br>それよりパン食べ放題はいかがですかー？<br>パンに囲まれている時間は幸せなのよ。",
-				answer01:"えっと…それじゃあ少しだけ…",
-				answer02:"心頭滅却しパンの香りの誘惑に打ち勝つ",
+				charaName:"chiyoko(Cocoa Mother)",
+				txt:"Why don't we find the eggs later?<br>How about all-you-can-eat bread?<br>I am happy to be surrounded by bread.",
+				answer01:"Um... well, just a few things...",
+				answer02:"Overcome the temptation of the aroma of bread",
 				answer:2
 			},
 			2:{
-				charaName:"モカ",
-				txt:"いらっしゃーい！え、卵の部屋の鍵？<br>サプライズでパンにいれちゃいました！<br>えーと、どっちだっけ？",
-				answer01:"巨大特製キーマカレーパン",
-				answer02:"巨大もちもちメロンパン",
+				charaName:"mocha",
+				txt:"Welcome! What, the key to the egg room?<br>I put it in the bread as a surprise!<br>Well, which was it?",
+				answer01:"Giant Special Keema Curry Bread",
+				answer02:"Giant sticky melon bread",
 				answer:1
 			}
 		},
