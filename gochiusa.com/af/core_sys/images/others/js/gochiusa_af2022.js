@@ -41,15 +41,15 @@ const dialogue = {
 			{
 				chara:"elu",
 				txt:[
-					"はぁ…上手く話しかけれない",
-					"仲良くなれるかもしれないのに…"
+					"Huh... can't speak well.",
+					"We could have been friends..."
 				],
 				voice:"05_Elu.mp3",
 			},{
 				chara:"natsume",
 				txt:[
-					"青い鳥を見つけたらお別れだし",
-					"仲良くしても寂しいだけだよ"
+					"If we find the blue bird, we'll fall apart.",
+					"You'll only miss them if you befriend them."
 				],
 				voice:"06_Natsume.mp3",
 			},
@@ -58,9 +58,9 @@ const dialogue = {
 			{
 				chara:"natsume",
 				txt:[
-					"やぁぁっっったぁぁー！青い鳥コンプリート！",
-					"私にかかればこのくらい余裕だし！",
-					"マヤに自慢しよーっと♪"
+					"YEAH!!! Blue bird complete!",
+					"For me, it was easy.",
+					"I'm going to brag to Maya!♪"
 				],
 				voice:"07_Natsume.mp3",
 			},{
@@ -283,13 +283,13 @@ const tags = {
 		'				<ul>'+
 		'					<li>'+
 		'						<button type="button" data-type="sotodura">'+
-		'							<span>外面モード</span>'+
+		'							<span>another person mode</span>'+
 		'							<img src="'+homeImg[3].src+'">'+
 		'						</button>'+
 		'					</li>'+
 		'					<li>'+
 		'						<button type="button" data-type="negative">'+
-		'							<span>ネガティブモード</span>'+
+		'							<span>negative mode</span>'+
 		'							<img src="'+homeImg[3].src+'">'+
 		'						</button>'+
 		'					</li>'+
