@@ -326,7 +326,7 @@ const tags = {
 		'		<div class="story__bg"><span><img src="'+storyImg[0].src+'"></span></div>'+
 		'		<div class="story__main">'+
 		'			<div class="story__txt">'+
-		'				We were in a small world.<br>And we had lots of free time.<br>So we had a question.<br>What is <span class="blue">happiness</span>?
+		'				We were in a small world.<br>And we had lots of free time.<br>So we had a question.<br>What is <span class="blue">happiness</span>?'+
 		'			<div class="story__logo">'+
 		'				<img src="'+storyImg[1].src+'">'+
 		'			</div>'+
